@@ -34,6 +34,7 @@ function git_sparse_clone() {
 git clone --depth=1 https://github.com/sbwml/luci-app-openlist2 package/openlist
 git_sparse_clone master https://github.com/kenzok8/openwrt-packages adguardhome luci-app-adguardhome
 git_sparse_clone main https://github.com/VIKINGYFY/packages luci-app-wolplus
+git clone --depth=1 https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
 git clone --depth=1 https://github.com/gdy666/luci-app-lucky package/luci-app-lucky
 git clone --depth=1 https://github.com/sirpdboy/luci-app-partexp package/luci-app-partexp
 git clone --depth=1 https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
